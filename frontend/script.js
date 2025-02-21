@@ -5,8 +5,8 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const particles = [];
-const numParticles = 18000;  // ✅ 2000 ta zarracha
-const maxSpeed = 10;
+const numParticles = 15000;  // ✅ 2000 ta zarracha
+const maxSpeed = 30;
 const mouseRepelForce = 100;  // ✅ Sichqonchadan qochish kuchi
 
 let mouse = { x: null, y: null };
